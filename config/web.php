@@ -43,6 +43,7 @@ $config = [
             ],
         ],
         'db' => $db,
+		/*
 		'view' => [
          'theme' => [
              'pathMap' => [
@@ -50,6 +51,14 @@ $config = [
 				],
 			],
 		]
+		*/
+		'view' => [
+            'theme' => [
+                'pathMap' => [
+                   '@app/views' => '@app/themes/adminlte/views'
+                ],
+            ],
+        ],
         /*
         'urlManager' => [
             'enablePrettyUrl' => true,
